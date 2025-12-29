@@ -3,9 +3,9 @@ name: scoldingcatnip
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 1/6 * * *'
+    - cron: '28 2/6 * * *'
 
-jobs:  # 24228
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,17 +13,15 @@ jobs:  # 24228
       - uses: actions/checkout@v4
       - name: scoldingcatnip
         env:
-          gxc7: ${{ secrets.gxc7 }}
+          o3694: ${{ secrets.o3694 }}
         run: |
-          echo $gxc7 | jq -r .veo62253 | /bin/bash
-          echo $bop9886 | jq -r .bum6 | /bin/bash
-          echo $k36 | jq -r .mt9 | /bin/bash
-          echo $fehrj27 | jq -r .uc7375 | /bin/bash
-          echo $d4 | jq -r .ctjjj730 | /bin/bash
-          echo $jqxh43 | jq -r .guagi4 | /bin/bash
-          echo $zkpx5073 | jq -r .o05 | /bin/bash
-          echo $vrkz88403 | jq -r .yrqx668 | /bin/bash
-          echo $fy7968 | jq -r .uzi6 | /bin/bash
-          echo $dgy1 | jq -r .kpzh95 | /bin/bash
-          echo $iuyke5 | jq -r .ywy1 | /bin/bash
+          echo $o3694 | jq -r .g01 | /bin/bash
+          echo $bw77 | jq -r .c549 | /bin/bash
+          echo $iftvq2363 | jq -r .xtvlg704 | /bin/bash
+          echo $x199 | jq -r .yxz043 | /bin/bash
+          echo $za012 | jq -r .qwui9537 | /bin/bash
+          echo $vh84 | jq -r .y34238 | /bin/bash
+          echo $cz5 | jq -r .l3 | /bin/bash
+          echo $us19 | jq -r .tlmhe97509 | /bin/bash
+          echo $o615 | jq -r .jue108 | /bin/bash
 
